@@ -1,0 +1,9 @@
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+KernelLux = "e26bb6b9-3827-4043-93f0-e025cf914469"
+
+[sources]
+KernelLux = {path = ".."}
+
+[compat]
+Documenter = "1"

@@ -1,0 +1,15 @@
+[deps]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+Enzyme = "7da242da-08ed-463a-9acd-ee780be4f1d9"
+KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
+KernelLux = "e26bb6b9-3827-4043-93f0-e025cf914469"
+Lux = "b2108857-7c20-44ae-9111-449ecde12c47"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Reactant = "3c362404-f566-11ee-1572-e11a4b42c853"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+# Lets `julia --project=test` (interactive test development) resolve the package under test from
+# the parent directory. `Pkg.test` ignores this and develops the package itself.
+[sources]
+KernelLux = {path = ".."}

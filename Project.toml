@@ -1,0 +1,15 @@
+name = "KernelLux"
+uuid = "e26bb6b9-3827-4043-93f0-e025cf914469"
+authors = ["Maximilian Gelbrecht <maximilian.gelbrecht@posteo.de>"]
+version = "0.1.0"
+
+[deps]
+LuxCore = "bb33d45b-7691-41d6-9220-0943567d0623"
+NNlib = "872c559c-99b0-510c-b3b7-b6c96a88d5cd"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+[compat]
+LuxCore = "1"
+NNlib = "0.9"
+StaticArrays = "1"
+julia = "1.10"
